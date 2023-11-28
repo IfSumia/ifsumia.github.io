@@ -1,45 +1,40 @@
+
+h1 {
+    text-align:center;
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
 body {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: white;
+    background: linear-gradient(180deg, #FFEEEE, #DDEFBB);
+    height: 100vh;
+}
+
+.block {
+    display: block;
+    margin:auto;
+    border-radius: 25px;
+    width: min(70%, 500px);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.479);
+}
+
+#contents {
+    margin-top: 2rem;
+    height: 300px;
+    border: 1px solid black;
+    text-align: left;
+    border-radius: 25px;
+    background-color: rgb(255, 255, 255);
+}
+
+.pages {
+    padding: 5px;
+    font-size: 1.5rem;
+}
+
+a {
     color: black;
+    text-decoration: none;
 }
-
-header {
-    background-color: #333; /* Adjust the color to fit your design */
-    color: white;
-    padding: 1em 0;
-    /* Other styles for your header */
-}
-
-#about, #career, #projects {
-    padding: 2em;
-    max-width: 1200px;
-    margin: auto;
-}
-
-#about {
-    /* Styles for about section */
-}
-
-#career .timeline {
-    /* Styles for career timeline, you can use flex or grid layout */
-}
-
-#projects .project-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 20px;
-    /* Styles for project grid */
-}
-
-footer {
-    background-color: #333; /* Adjust the color to fit your design */
-    color: white;
-    text-align: center;
-    padding: 1em 0;
-    /* Other styles for your footer */
-}
-
-/* Add responsive design breakpoints as needed */
